@@ -1,0 +1,27 @@
+.back {
+  margin: 0 auto;
+  background: aliceblue;
+  padding: 4% 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather {
+  background: white;
+  border-radius: 25px;
+  width: 80%;
+  padding: 40px;
+  position: relative;
+  overflow: hidden;
+
+  &__img-div {
+    position: relative;
+
+    & img {
+      border-radius: 25px;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}

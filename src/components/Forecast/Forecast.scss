@@ -1,0 +1,43 @@
+.forecast {
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 25px;
+  background: #61dafb;
+  width: 210px;
+
+  &__text-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__temps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    font-size: 14px;
+    width: 60px;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    background: cadetblue;
+  }
+
+  & img {
+    width: 50px;
+  }
+
+  &__week-day {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  &__desc {
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
